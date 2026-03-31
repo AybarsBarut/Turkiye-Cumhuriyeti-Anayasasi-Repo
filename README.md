@@ -38,4 +38,4 @@ Depodaki Markdown ve JSON dosyaları kullanıma hazırdır. Ancak verileri doğr
    ```
 
 ---
-*Not: Bu depo resmi bir devlet organı tarafından değil, açık veri prensipleriyle oluşturulmuştur.*
+*Not: Bu depo resmi bir devlet organı tarafından değil, açık veri prensipleriyle oluşturulmuştur. Olası değişiklikler anında Pushlanamayabilir, her sorguda güncelliğini teyid etmeniz şiddetle tavsiye edilir*
