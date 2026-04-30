@@ -1,41 +1,39 @@
-# Türkiye Cumhuriyeti Anayasası (2026 Güncel)
+# Turkiye Cumhuriyeti Anayasasi Dataset
 
-Bu depo, Türkiye Cumhuriyeti Anayasası'nın (1982) tüm değişiklikleri içeren en güncel metnini yapılandırılmış bir formatta sunar. 
+![type](https://img.shields.io/badge/type-legal%20dataset-blue) ![tech](https://img.shields.io/badge/tech-Markdown%20%2F%20JSON%20%2F%20Python-black) ![status](https://img.shields.io/badge/status-active-green)
 
-## Proje Amacı
+**Turkiye Cumhuriyeti Anayasasi Dataset** is a structured dataset and Markdown archive of the Constitution of the Republic of Turkiye for reading, search, legaltech projects, and AI/RAG pipelines.
 
-Bu çalışma, anayasa metninin hem insanlar tarafından rahatça okunabilmesini hem de veri bilimciler, hukuk teknolojileri (LegalTech) geliştiricileri ve yapay zeka (AI) ajanları tarafından kolayca işlenebilmesini amaçlamaktadır.
+Designed for researchers, students, legaltech developers, data engineers, NLP builders, and AI agents that need clean Turkish constitutional text.
 
-## Depo Yapısı
+## Features
 
-- `docs/`: Anayasanın bölümlere ayrılmış Markdown (.md) formatındaki metinleri.
-- `data/`: Anayasa maddelerinin hiyerarşik JSON formatındaki veri seti.
-- `scripts/`: Anayasa üzerinde arama yapmaya ve madde çekmeye yarayan yardımcı araçlar.
+- Constitution text organized for human reading and machine processing.
+- Markdown files for browsable legal reference workflows.
+- Structured JSON data for search, indexing, and AI pipelines.
+- Python scripts for rebuilding or querying the dataset.
+- Useful base data for Turkish NLP, legal search, RAG systems, and academic projects.
 
-## Güncellik Notu
+## Installation
 
-Metin, **31 Mart 2026** tarihi itibarıyla yürürlükte olan resmi mevzuat esas alınarak derlenmiştir. 2017 Anayasa değişikliği ile gelen Cumhurbaşkanlığı Hükümet Sistemi ve sonrasındaki tüm idari düzenlemeler metne işlenmiştir.
+Clone the repository and install optional Python dependencies with `pip install -r requirements.txt` if you want to run the scripts.
 
-## Kullanım Koşulları
+## Usage
 
-Türkiye Cumhuriyeti kanunları ve resmi metinleri üzerindeki telif hakları, *Fikir ve Sanat Eserleri Kanunu Madde 31* uyarınca kamuya aittir. Bu veri seti herhangi bir kısıtlama olmaksızın (AI eğitimi, akademik çalışma, ticari projeler vb.) kullanılabilir.
+Browse the Markdown files directly, consume the JSON data from your application, or run the scripts to rebuild/search the dataset.
 
-## Kurulum ve Kullanım (Geliştiriciler İçin)
+## Notes
 
-Depodaki Markdown ve JSON dosyaları kullanıma hazırdır. Ancak verileri doğrudan kaynağından **yeniden çekmek** veya CLI üzerinden **arama yapmak** isterseniz:
+Use official sources for legal verification. This repository is intended as a structured technical archive and developer-friendly dataset.
 
-1. Gereksinimleri yükleyin:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Güncel anayasayı yeniden ayrıştırmak ve dosyaları üretmek için:
-   ```bash
-   python scripts/build_constitution_data.py
-   ```
-3. Terminal üzerinden belirli bir maddeyi okumak için:
-   ```bash
-   python scripts/search_article.py 177
-   ```
+## SEO Keywords
 
----
-*Not: Bu depo resmi bir devlet organı tarafından değil, açık veri prensipleriyle oluşturulmuştur. Olası değişiklikler anında Pushlanamayabilir, her sorguda güncelliğini teyid etmeniz şiddetle tavsiye edilir*
+Turkiye Cumhuriyeti Anayasasi, Turkish Constitution dataset, legal dataset Turkey, Anayasa markdown, Turkish legal data, legaltech dataset, RAG legal dataset
+
+## GitHub Topics
+
+`dataset`, `legal-data`, `turkish-constitution`, `markdown`, `json`, `python`, `legaltech`, `nlp`
+
+## Repository
+
+[View on GitHub](https://github.com/AybarsBarut/Turkiye-Cumhuriyeti-Anayasasi-Repo)
